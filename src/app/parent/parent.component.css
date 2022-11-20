@@ -1,0 +1,53 @@
+.parent-component-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.child-components-container {
+    display: flex;
+    margin: auto;
+}
+
+h1 {
+    font-size: 4vh;
+}
+
+h4 {
+    margin: 1vh;
+}
+
+p {
+    margin: 0.5vh;
+    font-size: 2vh;
+}
+
+.child {
+    /* padding: 2vh; */
+    margin: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: 1px solid green;
+    background-color: rgb(214, 241, 62);
+    border-radius: 2vh;
+    overflow: scroll;
+    width: 20vh;
+    height: 20vh;
+}
+
+.change-variable-button {
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
+    border: none;
+    border-radius: 3vh;
+    background-color: rgb(60, 205, 60);
+    padding: 1vh;
+    cursor: pointer;
+    margin: 2vh;
+}
+
+.reassign {
+    background-color: rgb(230, 76, 76);
+}
